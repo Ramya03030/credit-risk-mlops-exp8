@@ -1,0 +1,56 @@
+============================================================
+BIAS AND FAIRNESS ANALYSIS
+============================================================
+
+AGE GROUP PERFORMANCE
+------------------------------------------------------------
+
+Group: Middle (30-49)
+Samples: 89
+Accuracy: 0.8202
+Recall: 0.5000
+Positive prediction rate: 0.1798
+
+Group: Older (50+)
+Samples: 32
+Accuracy: 0.7812
+Recall: 0.5000
+Positive prediction rate: 0.2188
+
+Group: Young (<30)
+Samples: 79
+Accuracy: 0.7342
+Recall: 0.5588
+Positive prediction rate: 0.3165
+
+PERSONAL STATUS / SEX GROUP ANALYSIS
+------------------------------------------------------------
+
+Group: A91
+Samples: 9
+Accuracy: 0.6667
+Recall: 1.0000
+Positive prediction rate: 0.6667
+
+Group: A92
+Samples: 61
+Accuracy: 0.7705
+Recall: 0.6500
+Positive prediction rate: 0.3279
+
+Group: A93
+Samples: 118
+Accuracy: 0.7797
+Recall: 0.4118
+Positive prediction rate: 0.1695
+
+Group: A94
+Samples: 12
+Accuracy: 0.9167
+Recall: 0.6667
+Positive prediction rate: 0.1667
+
+============================================================
+Fairness analysis completed successfully.
+Group-level metrics should be reviewed before production use.
+============================================================
