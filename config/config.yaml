@@ -1,0 +1,25 @@
+project:
+  name: "AI-Based Financial Decision System"
+  task: "Credit Risk Prediction"
+  dataset: "UCI German Credit"
+
+data:
+  test_size: 0.20
+  random_state: 42
+
+validation:
+  accuracy_threshold: 0.70
+  f1_threshold: 0.50
+  roc_auc_threshold: 0.75
+
+risk_thresholds:
+  low_risk: 0.40
+  human_review: 0.70
+
+models:
+  logistic_regression: true
+  random_forest: true
+  xgboost: true
+
+monitoring:
+  latency_threshold_seconds: 2.0
